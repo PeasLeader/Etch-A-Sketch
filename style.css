@@ -22,9 +22,9 @@
 #container{
     width: 500px;
     height: 500px;
-    background-color:lightgoldenrodyellow;
+    background-color: blueviolet;
     margin : 0 auto;
-    border : 1px solid black;
+    border : 2px solid black;
     display: flex;
     flex-wrap: wrap;
     /* didn't fully understant it so not using it for now */
@@ -32,17 +32,16 @@
 }
 
 .Words{
- background-color: lightgoldenrodyellow;
- display: flex;
- align-items: center;
+ background-color: lightsalmon;
+ display: flex;       /*   ] */
+ align-items: center;   /* ]   used them to center the the word */
+ margin: 0 auto;       /*  ] */
  font-size: 30px;
- margin: 0 auto;
 }
 
 .item{
     background-color:#FAF0E6;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 /* .box{
