@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    background-color: aquamarine;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+ 
+.option{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color:azure;
+}
+
+#container{
+    width: 500px;
+    height: 500px;
+    background-color:lightgoldenrodyellow;
+    margin : 0 auto;
+    border : 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* didn't fully understant it so not using it for now */
+    /* aspect-ratio: 1/1; */
+}
+
+.Words{
+ background-color: lightgoldenrodyellow;
+ display: flex;
+ align-items: center;
+ font-size: 30px;
+ margin: 0 auto;
+}
+
+.item{
+    background-color:#FAF0E6;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/* .box{
+    background-color:#FAF0E6;
+    box-sizing: border-box;
+   border: 1px solid black;
+   margin: 0px;
+   padding: 0px;
+} */
