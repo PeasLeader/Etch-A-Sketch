@@ -4,7 +4,7 @@ let reset = document.getElementById("Reset")
 let items = document.getElementsByClassName("item")
 
 
-const squareSize = container.clientWidth/40;
+
 
 
 grid.addEventListener("click",()=>{
